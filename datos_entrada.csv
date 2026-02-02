@@ -1,0 +1,22 @@
+Codigo,Nombre,Precio,Stock,Categoria,Proveedor
+P001,Laptop Dell XPS,1250000.00,8,Electrónica,TechDistributor
+P002,Mouse Logitech MX3,18500.00,45,Accesorios,OfficeSupply
+P003,Teclado Mecánico Razer,52000.00,3,Accesorios,TechDistributor
+P004,Monitor Samsung 27,380000.00,12,Electrónica,SamsungOfficial
+P005,Auriculares Sony WH-1000,95000.00,2,Audio,SonyStore
+P006,Cámara Web Logitech C920,42000.00,15,Accesorios,OfficeSupply
+P007,Disco Duro Externo 2TB,8900.00,0,Almacenamiento,TechDistributor
+
+--- PRUEBAS REALIZADAS ---
+Entrada: Listar productos -> Salida: 7 productos mostrados
+Entrada: Agregar producto (Tablet Samsung, $450000, stock 10) -> Salida: Producto P008 agregado
+Entrada: Buscar producto P001 -> Salida: Laptop Dell XPS encontrada
+Entrada: Actualizar stock P003 (de 3 a 20) -> Salida: Stock actualizado
+Entrada: Eliminar producto P007 -> Salida: Producto eliminado
+Entrada: Reporte por categoría -> Salida: 4 categorías mostradas
+Entrada: Reporte stock bajo -> Salida: 2 productos con stock bajo detectados
+Entrada: Reporte valor inventario -> Salida: Valor total calculado correctamente
+Entrada: Opción inválida "abc" -> Salida: Mensaje de error mostrado
+Entrada: Precio negativo "-500" -> Salida: Validación correcta, precio rechazado
+Entrada: Stock negativo "-3" -> Salida: Validación correcta, stock rechazado
+Entrada: Categoría no válida "Ropa" -> Salida: Validación correcta, categoría rechazada
